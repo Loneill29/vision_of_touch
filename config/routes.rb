@@ -4,5 +4,7 @@ Rails.application.routes.draw do
 
   get 'welcome/about'
 
+  get 'welcome/services'
+
   root 'welcome#index'
 end
